@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    .container {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    #canvas,
+    #topCanvas {
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    }
+
+    #canvas {
+      z-index: 2;
+    }
+
+    #topCanvas {
+      z-index: 3;
+      /* visibility: hidden; */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <canvas id="topCanvas"></canvas>
+    <canvas id="canvas"></canvas>
+  </div>
+  <script src="./indexfix.js"></script>
+</body>
+
+</html>

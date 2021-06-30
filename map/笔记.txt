@@ -1,0 +1,50 @@
+基于canvas搭建浏览器渲染
+
+canvas 背后 
+
+webgl
+canvas 
+
+canvas api 
+
+canvas 拾取 
+
+绘图引擎
+1. 拾取
+2. 分层
+3. 局部绘制
+4. 事件封装
+
+
+经纬度==》 画布可绘制范围
+
+svg  
+
+
+全量绘图 
+
+
+js 渲染 
+
+v8 + skia + 事件循环
+
+
+
+v8 ==> 执行js 机器 软件   
+
+1. 在什么地方运行    线程 v8 
+2. 运行什么 代码  进程 
+
+v8 线程  主线程渲染
+
+webkit  软件 HTML css
+
+主线程 
+
+js  v8   |  webkit html css 
+
+
+js 线程 
+
+
+js GC    js 执行  
